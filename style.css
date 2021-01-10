@@ -1,0 +1,272 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ :root
+ {
+    --navbar-height:59 px;
+ }
+
+ /* navbar */
+ /* navbar */
+ /* navbar */
+ /* navbar */
+#navbar{
+    display: flex;
+    align-items: center ;
+    position: relative;
+    top: -7px;
+} 
+
+#logo {
+    margin: 10px 34px;
+    margin-left: 11px;
+
+}
+#logo img {
+    position: absolute;
+    top: 10px;
+    height: 65px;
+    
+}
+
+#navbar ul {
+    display: flex;
+    margin-left: 37px;
+    margin-top: 8px;
+}
+
+#bgstrip{
+    position: absolute;
+    background-color: black;
+    height: 125%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+
+}
+#navbar ul li{
+    position: relative;
+    top: -8px;
+    list-style: none;
+    font-size: 1rem;
+    font-family: 'Baloo Bhai 2', cursive
+
+}
+#navbar ul li a{
+    display: block;
+    margin-top: 27px;
+    padding: 6px 23px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+/* main home content  */
+/* main home content  */
+/* main home content  */
+#home{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height:246px;
+}
+#home::before{
+    content:'';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url('/bg1.jpg') no-repeat center center/cover;
+    height: 53%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+   
+}
+#home p {
+   
+    
+    color: white;
+    
+}
+
+
+/* our services */
+/* our services */
+/* our services */
+
+
+#services .box{
+    border: 2px solid rgb(255, 0, 0);
+    width: 437px;
+    height: 301px;
+    border-radius: 22px;
+    display: block;
+    margin: auto;
+    background-color: #ffeaea;
+    padding: 17px;
+    padding-top: 0px;
+}
+#services .box img{
+    height: 160px;
+    width: 174px;
+    margin-top: 10px;
+}
+#services{
+    margin-top: 10px;
+    display: flex;
+    
+}
+#OSheading{
+    margin-top: 62px;
+}
+#companies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+}
+#companies .clientbox{
+    padding: 5px 10px;
+    /* border: 2px solid red; */
+    margin: 1px 1px;
+}
+#companies img{
+    height: 124px;
+}
+.clients{
+    height: 100px;
+}
+#clients::before{
+    content: "";
+    position: absolute;
+    top: 829px;
+    background: url(/bg2.jpg) no-repeat center center/cover;
+    height: 35%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+    
+}
+
+/* lower */
+/* lower */
+/* lower */
+/* lower */
+/* lower */
+
+
+#FP2{
+    margin-left: 10px;
+}
+.container{
+    
+    margin-right: 10px;
+    
+}
+#ContactUs input{
+    font-size: 18px;
+    align-items: start;
+    padding: 4px 9px;
+    width: 427px;
+    border: 2px solid #a95c5c;
+    border-radius: 7px;
+    font-family: 'Baloo Bhai 2'
+}
+#ContactUs input:hover{
+    font-size: 18px;
+    align-items: start;
+    padding: 4px 9px;
+    width: 427px;
+    border: 2px solid #a95c5c;
+    border-radius: 7px;
+    font-family: 'Baloo Bhai 2';
+    color: white;
+    background-color: rgb(68 60 60);
+    
+}
+.container form{
+    padding: 10px 10px 3px 0px;
+    font-family: 'Bree Serif';
+    border: 2px solid #1f1d1d;
+    width: 505px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 335px;
+    border-radius: 22px;
+    background-color: #bfb8b8ad;
+}
+#ContactUs{
+    position: relative;
+    top: 34px;
+}
+#ContactUs::before{
+    content: '';
+    position: absolute;
+    background: url('/contactUs.jpg') no-repeat center center/cover;
+    height: 110%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.56;
+}
+ #submit input{
+    margin: 15px 3px;
+    background-color: #353232;
+    color: white;
+    border-radius: 16px;
+    height: 41px;
+    width: 194px; 
+}
+#submit input:hover{
+    margin: 15px 3px;
+    background-color: #353232;
+    color: white;
+    border-radius: 16px;
+    height: 41px;
+    width: 194px; 
+}
+/* Utility Classes */
+/* Utility Classes */
+/* Utility Classes */
+/* Utility Classes */
+/* Utility Classes Utility Classes */
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    padding: 12px;
+    font-size: 3.2rem;
+}
+.h-secondary{
+    font-size: 2.2rem;
+    font-family: 'Baloo Bhai 2', cursive
+}
+.btn{
+    padding: 6px 16px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+   
+    font-size: 1.1rem;
+    font-family: 'Bree Serif', serif;
+    border-radius: 13px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(231, 86, 86);
+}
+.center{
+    text-align: center;
+}
